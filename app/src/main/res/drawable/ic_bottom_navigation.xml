@@ -1,0 +1,42 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="360dp"
+    android:height="56dp"
+    android:viewportHeight="56.0"
+    android:viewportWidth="360.0">
+
+    <path
+        android:name="home"
+        android:pathData="@string/ic_home_path"
+        android:strokeColor="#AAFFFFFF"
+        android:strokeWidth="1" />
+
+    <path
+        android:name="music"
+        android:pathData="@string/ic_music_path"
+        android:strokeColor="#AAFFFFFF"
+        android:strokeWidth="1" />
+
+    <path
+        android:name="heart"
+        android:pathData="@string/ic_heart_path"
+        android:strokeColor="#AAFFFFFF"
+        android:strokeWidth="1" />
+
+    <path
+        android:name="selector"
+        android:fillColor="#FFFFFF"
+        android:pathData="@string/ic_home_path" />
+
+    <path
+        android:name="clickable_home"
+        android:pathData="M0,0h120v56h-120z" />
+
+    <path
+        android:name="clickable_music"
+        android:pathData="M120,0h120v56h-120z" />
+
+    <path
+        android:name="clickable_heart"
+        android:pathData="M240,0h120v56h-120z" />
+
+</vector>
